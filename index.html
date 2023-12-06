@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Project</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="startBtn" onclick="showQuiz()">Pradėti!</button>
+    <div id="quizContainer" class="hidden">
+        <h1>Vaisiai</h1>
+        <p id="question">Kam naudingos morkos?</p>
+        <button class="choiceBtn" id="firstBtn">Niekam</button>
+        <button class="choiceBtn" id="secondBtn">Hitleriui</button>
+        <button class="choiceBtn" id="thirdBtn">Kepenims</button>
+        <button class="choiceBtn" id="fourthBtn">Odai</button>
+        <hr>
+        <p id="number">Klausimas <span id="questionNumber">1</span> iš 5</p>
+    </div>
+</body>
+</html>
